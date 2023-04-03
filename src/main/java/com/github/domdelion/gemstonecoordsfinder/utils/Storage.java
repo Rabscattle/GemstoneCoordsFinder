@@ -1,8 +1,8 @@
-package com.github.rabscattle.gemstonecoordsfinder.utils;
+package com.github.domdelion.gemstonecoordsfinder.utils;
 
-import com.github.rabscattle.gemstonecoordsfinder.GemstoneCoordsFinder;
-import com.github.rabscattle.gemstonecoordsfinder.structs.GemstoneType;
-import com.github.rabscattle.gemstonecoordsfinder.structs.Waypoint;
+import com.github.domdelion.gemstonecoordsfinder.structs.GemstoneType;
+import com.github.domdelion.gemstonecoordsfinder.structs.Waypoint;
+import com.github.domdelion.gemstonecoordsfinder.GemstoneCoordsFinder;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.kyori.adventure.text.Component;

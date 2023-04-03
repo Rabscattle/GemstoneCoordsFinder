@@ -1,6 +1,6 @@
 name: GemstoneCoordsFinder
 version: '${version}'
-main: com.github.rabscattle.gemstonecoordsfinder.GemstoneCoordsFinder
+main: com.github.domdelion.gemstonecoordsfinder.GemstoneCoordsFinder
 
 api-version: 1.13
 

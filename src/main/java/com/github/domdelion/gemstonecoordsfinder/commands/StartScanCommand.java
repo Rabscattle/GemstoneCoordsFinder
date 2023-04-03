@@ -1,8 +1,8 @@
-package com.github.rabscattle.gemstonecoordsfinder.commands;
+package com.github.domdelion.gemstonecoordsfinder.commands;
 
-import com.github.rabscattle.gemstonecoordsfinder.structs.GemstoneScanner;
-import com.github.rabscattle.gemstonecoordsfinder.structs.GemstoneType;
-import com.github.rabscattle.gemstonecoordsfinder.utils.Storage;
+import com.github.domdelion.gemstonecoordsfinder.structs.GemstoneScanner;
+import com.github.domdelion.gemstonecoordsfinder.structs.GemstoneType;
+import com.github.domdelion.gemstonecoordsfinder.utils.Storage;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.World;

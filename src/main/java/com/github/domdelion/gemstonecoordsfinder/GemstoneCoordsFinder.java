@@ -1,6 +1,6 @@
-package com.github.rabscattle.gemstonecoordsfinder;
+package com.github.domdelion.gemstonecoordsfinder;
 
-import com.github.rabscattle.gemstonecoordsfinder.commands.StartScanCommand;
+import com.github.domdelion.gemstonecoordsfinder.commands.StartScanCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class GemstoneCoordsFinder extends JavaPlugin {

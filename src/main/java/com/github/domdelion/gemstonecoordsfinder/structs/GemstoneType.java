@@ -1,4 +1,4 @@
-package com.github.rabscattle.gemstonecoordsfinder.structs;
+package com.github.domdelion.gemstonecoordsfinder.structs;
 
 import org.bukkit.Material;
 
