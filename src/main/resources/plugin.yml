@@ -1,0 +1,9 @@
+name: GemstoneCoordsFinder
+version: '${version}'
+main: com.github.rabscattle.gemstonecoordsfinder.GemstoneCoordsFinder
+
+api-version: 1.13
+
+commands:
+  start-scan:
+    usage: "/start-scan <world>"
