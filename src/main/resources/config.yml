@@ -1,0 +1,2 @@
+debug: false # Just tells you in the console if gemstones have been found (can cause lag)
+blocks-per-second: 500000

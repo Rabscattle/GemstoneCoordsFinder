@@ -1,8 +1,9 @@
-package nin.gemstonecoordsfinder.commands;
+package com.github.rabscattle.gemstonecoordsfinder.commands;
 
+import com.github.rabscattle.gemstonecoordsfinder.structs.GemstoneScanner;
+import com.github.rabscattle.gemstonecoordsfinder.structs.GemstoneType;
+import com.github.rabscattle.gemstonecoordsfinder.utils.Storage;
 import net.kyori.adventure.text.Component;
-import nin.gemstonecoordsfinder.struct.GemstoneScanner;
-import nin.gemstonecoordsfinder.struct.GemstoneType;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.command.Command;
@@ -31,6 +32,7 @@ public class StartScanCommand implements CommandExecutor {
             scanner = new GemstoneScanner(world, gemstoneTypeSetMap -> {
                 this.scanner = null;
                 Bukkit.broadcast(Component.text("Gemstone Scan Complete. Result: "));
+                Storage.saveGemstone(gemstoneTypeSetMap);
                 for (GemstoneType value : GemstoneType.values()) {
                     Bukkit.broadcast(Component.text("%s: %d".formatted(value.name(), gemstoneTypeSetMap.getOrDefault(value, new HashSet<>()).size())));
                 }

@@ -1,4 +1,4 @@
-package com.github.rabscattle.gemstonecoordsfinder.struct;
+package com.github.rabscattle.gemstonecoordsfinder.structs;
 
 import net.kyori.adventure.text.Component;
 import com.github.rabscattle.gemstonecoordsfinder.GemstoneCoordsFinder;
@@ -20,8 +20,7 @@ import java.util.logging.Level;
 
 public class GemstoneScanner {
     private static final Vector CH_START = new Vector(202, 31, 202);
-    private static final Vector CH_END = new Vector(402, 81, 302);
-//    private static final Vector CH_END = new Vector(823, 188, 823);
+    private static final Vector CH_END = new Vector(823, 188, 823);
 
     private static final Vector SPAWN_START = new Vector(456, 0, 566);
     private static final Vector SPAWN_END = new Vector(567, 190, 456);

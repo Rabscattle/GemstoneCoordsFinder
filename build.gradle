@@ -11,17 +11,12 @@ repositories {
         name = "papermc-repo"
         url = "https://repo.papermc.io/repository/maven-public/"
     }
-    maven {
-        name = "sonatype"
-        url = "https://oss.sonatype.org/content/groups/public/"
-    }
 }
-
 dependencies {
-compileOnly "com.destroystokyo.paper:paper-api:1.12-R0.1-SNAPSHOT"
+    compileOnly 'io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT'
 }
 
-def targetJavaVersion = 8
+def targetJavaVersion = 17
 java {
     def javaVersion = JavaVersion.toVersion(targetJavaVersion)
     sourceCompatibility = javaVersion
